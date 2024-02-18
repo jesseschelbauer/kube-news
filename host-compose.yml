@@ -1,0 +1,8 @@
+services:
+  nginx:
+    image: nginx
+    network_mode: "host"
+  curl: 
+    image: nginx
+    extra_hosts: 
+      aula_docker.schelbauer.com: 172.17.0.1
